@@ -18,4 +18,50 @@ p.Title2 {
 	text-align: right;
 	margin-top: -240px;
 	margin-right: 10px;
+	margin-left: 95%;
+	cursor: pointer;
+}
+
+div.menu-l {
+	background: orange;
+	margin-top: 50px;
+	width: 18%;
+	height: 600px;
+}
+
+p.menu-l {
+	font-family: Impact, Charcoal, sans-serif;
+	text-align: center;
+	font-size: 25px;
+}
+
+div.traco {
+	background: black;
+	margin-right: 5px;
+	margin-top: -15px;
+	margin-left: 5px;
+	height: 5px;
+}
+
+p.menuobj1 {
+	background: #b77803;
+	margin-left: 7px;
+	margin-right: 7px;
+	font-family: Impact, Charcoal, sans-serif;
+	font-size: 15;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	cursor: pointer;
+}
+
+.rodape {
+	background: orange;
+	margin-top: 10px;
+	height: 26px;
+}
+
+p.rodape {
+	text-align: right;
+	margin-right: 50px;
 }
