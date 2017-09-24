@@ -64,14 +64,13 @@ p.menuobj1 {
 }
 
 aside {
-	background: black;
+	background: orange;
 	margin-top: 50px;
 	height: 5px;
 }
 
-#imagem {
+#videoeimagens {
 	background: orange;
-	width: 25%;
 	margin-left: 5px;
 	margin-top: 5px;
 	float: left;
@@ -80,26 +79,36 @@ aside {
 
 #texto {
 	background: orange;
-	width: 55%;
-	margin-left: 5px;
+	width: 54%;
 	margin-top: 5px;
+	margin-left: 5px;
 	float: left;
 }
 
-div h1 {
+#download {
+	background: orange;
+	width: 81%;
+	margin-top: 5px;
+	margin-left: 5px;
+	float: left;
+}
+
+div p {
 	margin-left: 5px;
     font-family: Impact, sans-serif;
-	font-size: 25;
+	font-size: 11px;
 	text-align: center;
 }
 
 footer {
 	background: orange;
-	margin-top: 10px;
 	height: 26px;
+	float: left;
+	width: 100%;
 }
 
 footer p {
 	text-align: right;
 	margin-right: 50px;
+	margin-top: 0px;
 }
