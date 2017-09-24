@@ -1,35 +1,54 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<script type="text/javascript" src="jquery-3.2.1.min.js"></script>
-	<style type="text/css">@import url("cssindex.css");</style>
-	<script type="text/javascript">
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<title>FJN DEV HTML</title>
+		<script type="text/javascript" src="jquery-3.2.1.min.js"></script>
+		<style type="text/css">@import url("cssindex.css");</style>
+		<script type="text/javascript">
 
-		function teste() {
-			alert("Ronicarlos\nOutro\nOutro");
-		}
+			function teste() {
+				alert("Ronicarlos\nOutro\nOutro");
+			}
 
-	</script>
-	<title>FJN DEV HTML</title>
-</head>
-<body>
-	<!-- TITULO -->
-	<div class="Title">
-		<P class="Title">FJN DEV HTML</P>
-		<p class="Title2" onclick="teste()" >Equipe</p>
-	</div>
-	<div>
-		<!-- MENU -->
-		<div class="menu-l">
-			<p class="menu-l">Menu</p>
+		</script>
+	</head>
+	<body>
+		<header>
+			<P class="title">FJN DEV HTML</P>
+			<p class="equip" onclick="teste()" >Equipe</p>
+		</header>
+		<nav>
+			<p class="menu">MENU</p>
 			<div class="traco"></div>
-			<p class="menuobj1">teste</p>
-		</div>
-		<!-- CORPO -->
-	</div>
-	<!-- RODAPE -->
-	<div class="rodape">
-		<p class="rodape">all rights reserved © fjn dev html . 2017 </p>
-	</div>
-</body>
+			<p class="menu-obj">HOME</p>
+			<p class="menu-obj">SOBRE</p>
+			<p class="menu-obj">BLOG</p>
+			<p class="menu-obj">LIVROS</p>
+			<p class="menu-obj">DOWNLOAD</p>
+			<P class="menu-obj">CONTATO</P>
+		</nav>
+		<aside>
+        </aside>
+        <section>
+        	<div id="imagem">
+        		<img src="imagens/HTML5.png" alt="Imagem de página não encontrada" width="400" height="388" />
+        	</div>
+        	<div id="texto">
+        		<h1>SOBRE HTML5</h1>
+        		<H2>HTML5 (Hypertext Markup Language, versão 5) é uma linguagem para estruturação e apresentação de conteúdo para a World Wide Web e é uma tecnologia chave da Internet originalmente proposto por Opera Software.[1] É a quinta versão da linguagem HTML. Esta nova versão traz consigo importantes mudanças quanto ao papel do HTML no mundo da Web, através de novas funcionalidades como semântica e acessibilidade. Possibilita o uso de novos recursos antes possíveis apenas com a aplicação de outras tecnologias. Sua essência tem sido melhorar a linguagem com o suporte para as mais recentes multimídias, enquanto a mantém facilmente legível por seres humanos e consistentemente compreendida por computadores e outros dispositivos 
+        		(navegadores, parsers etc). O HTML5 será o novo padrão para HTML, XHTML, e HTML DOM. Atualmente, está em fase de esboço, porém diversos navegadores já implementam algumas de suas funcionalidades.
+        		</H2>
+        	</div>
+        </section>
+        <section>
+            <h2>Temas Populares<h2>
+            <article>(( POPULAR A ))</article>
+            <article>(( POPULAR B ))</article>
+            <article>(( POPULAR C ))</article>
+        </section>
+        <footer>
+        	<p>all rights reserved © fjn dev html . 2017 </p>
+        </footer>
+	</body>
 </html>

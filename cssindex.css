@@ -1,17 +1,17 @@
-div.Title {
+header {
 	background: orange;
 	height: 90px;
 	width: 100%;
 	margin-top: -100px;
 }
 
-p.Title {
+p.title {
 	font-family: Impact, Charcoal, sans-serif;
 	font-size: 110px;
 	text-align: left;
 }
 
-p.Title2 {
+p.equip {
 	font-family: Impact, Charcoal, sans-serif;
 	color: gray;
 	font-size: 20px;
@@ -22,17 +22,25 @@ p.Title2 {
 	cursor: pointer;
 }
 
-div.menu-l {
+nav{
 	background: orange;
 	margin-top: 50px;
 	width: 18%;
 	height: 600px;
+	float: left;
 }
 
-p.menu-l {
+p.menu {
 	font-family: Impact, Charcoal, sans-serif;
 	text-align: center;
 	font-size: 25px;
+}
+
+p.menu-obj {
+	font-family: Impact, Charcoal, sans-serif;
+	text-align: center;
+	font-size: 20px;
+	cursor: pointer;
 }
 
 div.traco {
@@ -55,13 +63,43 @@ p.menuobj1 {
 	cursor: pointer;
 }
 
-.rodape {
+aside {
+	background: black;
+	margin-top: 50px;
+	height: 5px;
+}
+
+#imagem {
+	background: orange;
+	width: 25%;
+	margin-left: 5px;
+	margin-top: 5px;
+	float: left;
+	border: 10px solid orange;
+}
+
+#texto {
+	background: orange;
+	width: 55%;
+	margin-left: 5px;
+	margin-top: 5px;
+	float: left;
+}
+
+div h1 {
+	margin-left: 5px;
+    font-family: Impact, sans-serif;
+	font-size: 25;
+	text-align: center;
+}
+
+footer {
 	background: orange;
 	margin-top: 10px;
 	height: 26px;
 }
 
-p.rodape {
+footer p {
 	text-align: right;
 	margin-right: 50px;
 }
