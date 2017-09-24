@@ -85,9 +85,10 @@ aside {
 	float: left;
 }
 
-#download {
+#espaco{
 	background: orange;
-	width: 81%;
+	width: 54%;
+	height: 35px;
 	margin-top: 5px;
 	margin-left: 5px;
 	float: left;
