@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<title>FJN DEV HTML</title>
+		<script type="text/javascript" src="jquery-3.2.1.min.js"></script>
+		<style type="text/css">@import url("csscontact.css");</style>
+		<script type="text/javascript">
+
+			function teste() {
+				alert("Ronicarlos\nOutro\nOutro");
+			}
+
+		</script>
+	</head>
+	<body>
+		<header>
+			<P class="title">FJN DEV HTML</P>
+			<p class="equip" onclick="teste()" >Equipe</p>
+		</header>
+		<nav>
+			<p class="menu">MENU</p>
+			<div class="traco"></div>
+			<p class="menu-obj"><a href="index.html">HOME</a></p>
+			<p class="menu-obj">SOBRE</p>
+			<p class="menu-obj">BLOG</p>
+			<p class="menu-obj">LIVROS</p>
+			<p class="menu-obj">DOWNLOAD</p>
+			<P class="menu-obj"><a href="contact.html">CONTATO</a></P>
+		</nav>
+		<aside>
+        </aside>
+        <section>
+        	<div>
+                <h1>CONTATO</h1>
+                <p>Todos os campos são obrigatórios</p><br/>
+                <form>
+                    <input id="name" type="text" placeholder="Seu nome:" /><br/>
+                    <input id="email" type="email" placeholder="Seu email:" /><br/>
+                    <input id="address" type="text" placeholder="Endereço:" />
+                    <input id="number" type="number" placeholder="Numero:" /><br/>
+                    <input id="date" type="text" placeholder="Dia/Mês/Ano" /><br/>
+                    <input id="tel" type="tel" pattern="\([0-9]{2}\) [0-9]{4,6}-[0-9]{3,4}$" placeholder="(xx) xxxx-xxxx" /><br/>
+                    <input id="send" type="submit" value="ENVIAR"/>
+                </form>
+            </div>
+        </section>
+        <footer>
+        	<p>all rights reserved © fjn dev html . 2017 </p>
+        </footer>
+	</body>
+</html>

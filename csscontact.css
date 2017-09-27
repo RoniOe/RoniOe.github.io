@@ -68,33 +68,31 @@ a{
    text-decoration:none;
 }
 
-aside {
+section {
 	background: orange;
 	margin-top: 50px;
-	height: 5px;
+	margin-left: 1%;
+	width: 81%;
+	height: 600px;
+	float: left;
 }
 
-#videoeimagens {
-	background: orange;
-	margin-left: 1%;
-	margin-top: 5px;
-	float: left;
-	border: 10px solid orange;
-}
-
-#texto {
-	background: orange;
-	width: 53%;
-	height: 122px;
-	margin-top: 5px;
-	margin-left: 1%;
-	float: left;
+div h1 {
+    font-family: Impact, sans-serif;
+	font-size: 30px;
+	text-align: center;
 }
 
 div p {
-	margin-left: 5px;
     font-family: Impact, sans-serif;
 	font-size: 11px;
+	text-align: center;
+}
+
+div form {
+	background-color: orange;
+    font-family: Impact, sans-serif;
+	font-size: 30px;
 	text-align: center;
 }
 
